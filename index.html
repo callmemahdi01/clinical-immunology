@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راهنمای جامع واکسیناسیون</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            font-family: 'vazirmatn', 'Tahoma', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #0056b3; /* Deep Blue */
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #007bff; /* Bright Blue */
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #007bff; /* Bright Blue */
+            padding: 10px 0;
+        }
+        th, td {
+            border: 1px solid #dee2e6; /* Light Grey Border */
+            padding: 12px 10px;
+            text-align: right;
+            vertical-align: top;
+        }
+        thead th {
+            background-color: #007bff; /* Bright Blue */
+            color: #ffffff;
+            font-weight: bold;
+            position: sticky; /* For better scrolling experience on wide tables */
+            top: 0; /* Required for sticky header */
+            z-index: 1;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #e9ecef; /* Lighter Grey for even rows */
+        }
+        tbody tr:hover {
+            background-color: #cfe2ff; /* Light Blue hover */
+        }
+        td strong {
+            color: #0056b3; /* Deep Blue for emphasis */
+        }
+        .table-responsive-wrapper {
+            overflow-x: auto; /* Enables horizontal scrolling for tables on small screens */
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        .notes-section {
+            background-color: #e9f7ff; /* Very Light Blue background for notes */
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #bde0fe; /* Light Blue border */
+        }
+        .notes-section h2 {
+            color: #0056b3;
+            border-bottom-color: #007bff;
+        }
+        .notes-section ul {
+            list-style-type: disclosure-closed; /* More modern bullet point */
+            padding-right: 20px;
+        }
+        .notes-section li {
+            margin-bottom: 12px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8em; }
+            h2 { font-size: 1.5em; }
+            caption { font-size: 1.2em; }
+            th, td { padding: 10px 8px; font-size: 0.9em; }
+            .container {
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.5em; }
+            h2 { font-size: 1.3em; }
+            caption { font-size: 1.1em; }
+            th, td { padding: 8px 6px; font-size: 0.85em; }
+             .notes-section ul { padding-right: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>راهنمای جامع واکسیناسیون</h1>
+
+    <section id="vaccine-details">
+        <h2>جدول ۱: جزئیات واکسن‌های برنامه ملی و سایر واکسن‌های مهم</h2>
+        <div class="table-responsive-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>نام واکسن</th>
+                        <th>اجزاء/نوع</th>
+                        <th>بیماری(های) هدف</th>
+                        <th>نحوه تجویز/تزریق</th>
+                        <th>سن/نوبت تزریق در برنامه ملی ایران (یا موارد خاص)</th>
+                        <th>ملاحظات مهم</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>BCG (ب.ث.ژ)</strong></td>
+                        <td>باکتری زنده ضعیف شده</td>
+                        <td>سل</td>
+                        <td>داخل جلدی (ID)</td>
+                        <td>بدو تولد، اختیاری در بدو ورود به دبستان</td>
+                        <td>تقویت ایمنی سلولی (افزایش Th1 و کاهش Th2)، ضد سرطان، ضد آلرژی. نیاز به حل کردن قبل از تزریق دارد (Freeze dried). در زایشگاه تزریق می‌شود. تزریق خاص ID دارد.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>HBV (هپاتیت ب)</strong></td>
+                        <td>آنتی‌ژن سطحی ویروس (Subunit)</td>
+                        <td>هپاتیت B</td>
+                        <td>عضلانی (IM)</td>
+                        <td>بدو تولد. در برنامه با واکسن‌های ترکیبی (پنج‌گانه/شش‌گانه): ۰، ۲، ۴، ۶ ماهگی. برنامه برای بزرگسالان و گروه‌های پرخطر: ۰، ۱، ۶ ماهگی.</td>
+                        <td>در زایشگاه تزریق می‌شود. دو دوز معمولاً کافی است ولی دوز سوم برای احتیاط است. برنامه ۰-۲-۴-۶ ممکن است باعث خنثی شدن آنتی‌بادی یا تشکیل کمپلکس ایمنی شود.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OPV (فلج اطفال خوراکی)</strong></td>
+                        <td>ویروس زنده ضعیف شده</td>
+                        <td>فلج اطفال</td>
+                        <td>خوراکی</td>
+                        <td>بدو تولد، ۲ ماهگی، ۴ ماهگی، ۶ ماهگی، ۱۸ ماهگی، ۶-۴ سالگی. (در برنامه قدیمی در ۱۲ ماهگی داده نمی‌شد)</td>
+                        <td>ساخت موسسه رازی. ایجاد ایمنی مخاطی (IgA) می‌کند. با کاهش ویروس وحشی در محیط به کنترل بیماری کمک می‌کند. سویه ۲ از آن حذف شده است. احتمال فلج ناشی از واکسن بسیار کم است. بیشترین میزان تجویز در برنامه. صورتی رنگ، مزه شور یا شیرین.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pentavalent (پنج‌گانه)</strong></td>
+                        <td>دیفتری (توکسوئید)، کزاز (توکسوئید)، سیاه سرفه (توکسوئید و تمام پیکری)، HBV (آنتی ژن سطحی)، Hib</td>
+                        <td>دیفتری، کزاز، سیاه سرفه، هپاتیت B، عفونت Hib</td>
+                        <td>عضلانی (IM)</td>
+                        <td>۲، ۴، ۶ ماهگی (در صورت تجویز واکسن پنج‌گانه)</td>
+                        <td>برای کاهش تعداد تزریقات و اذیت کمتر مادر و فرزند ایجاد شد.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hexavalent (شش‌گانه)</strong></td>
+                        <td>Pentavalent + IPV (پولیو تزریقی)</td>
+                        <td>دیفتری، کزاز، سیاه سرفه، هپاتیت B، عفونت Hib، فلج اطفال</td>
+                        <td>عضلانی (IM)</td>
+                        <td>۲، ۴، ۶ ماهگی (در صورت تجویز واکسن شش‌گانه)</td>
+                        <td>جزء اضافی آن نسبت به Pentavalent، واکسن IPV است.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>IPV (فلج اطفال تزریقی)</strong></td>
+                        <td>ویروس غیرفعال شده</td>
+                        <td>فلج اطفال</td>
+                        <td>عضلانی (IM)</td>
+                        <td>در ۴ ماهگی و ۶ ماهگی (همراه با Pentavalent یا به عنوان جزئی از Hexavalent).</td>
+                        <td>ایجاد ایمنی خونی (IgG) می‌کند. برای پوشش بیشتر در کنار OPV و کاهش تدریجی OPV استفاده می‌شود.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rotavirus (روتاویروس)</strong></td>
+                        <td>ویروس زنده ضعیف شده</td>
+                        <td>گاستروانتریت (اسهال) ناشی از روتاویروس</td>
+                        <td>خوراکی</td>
+                        <td>۲، ۴، ۶ ماهگی</td>
+                        <td>یکی از واکسن‌های جدید اضافه شده به برنامه ملی.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PCV (پنوموکوک کنژوگه)</strong></td>
+                        <td>پلی‌ساکارید باکتری پنوموکوک کنژوگه شده با پروتئین</td>
+                        <td>بیماری‌های تهاجمی پنوموکوکی (پنومونی، مننژیت)</td>
+                        <td>عضلانی (IM)</td>
+                        <td>۲، ۴، ۱۲ ماهگی.</td>
+                        <td>واکسن کنژوگه از نوع پلی‌ساکاریدی تنها، موثرتر است. یکی از واکسن‌های جدید اضافه شده به برنامه ملی.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MMR (سرخک، اوریون، سرخجه)</strong></td>
+                        <td>ویروس‌های زنده ضعیف شده</td>
+                        <td>سرخک، اوریون، سرخجه</td>
+                        <td>زیرجلدی (SC) یا عضلانی (IM)</td>
+                        <td>۱۲ ماهگی، ۱۸ ماهگی (دوز یادآور).</td>
+                        <td>ویروس سرخک سیستم ایمنی را تضعیف می‌کند. در گذشته، در ۱۲ ماهگی به تنهایی تجویز می‌شد.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>DTP (سه‌گانه)</strong></td>
+                        <td>توکسوئید دیفتری، توکسوئید کزاز، سیاه سرفه (کل باکتری یا بدون سلول aP)</td>
+                        <td>دیفتری، کزاز، سیاه سرفه</td>
+                        <td>عضلانی (IM)</td>
+                        <td>۱۸ ماهگی، ۶-۴ سالگی (ورود به مدرسه).</td>
+                        <td>همواره با OPV داده می‌شود (به جز بدو تولد در برنامه‌های قدیمی).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Measles (سرخک تک‌واکسن)</strong></td>
+                        <td>ویروس زنده ضعیف شده</td>
+                        <td>سرخک</td>
+                        <td>تزریقی</td>
+                        <td>نوبت صفر در ۶ ماهگی در استان‌های منتخب (در شرایط خاص و برای کنترل همه‌گیری).</td>
+                        <td>ایران در حال حذف سرخک است.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Smallpox (آبله)</strong></td>
+                        <td>ویروس زنده (واکسینیا)</td>
+                        <td>آبله</td>
+                        <td>خراش روی پوست (Scarification)</td>
+                        <td>در برنامه واکسیناسیون فعلی ایران وجود ندارد.</td>
+                        <td>بیماری در ۱۹۷۲ ریشه‌کن شده است. آمریکا به نظامیان خود تزریق می‌کند (بیوتروریسم). واکسن پس از مواجهه نیز کاربرد دارد.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rabies (هاری)</strong></td>
+                        <td>ویروس غیرفعال شده</td>
+                        <td>هاری</td>
+                        <td>عضلانی (IM)</td>
+                        <td>پس از مواجهه (Post-exposure prophylaxis).</td>
+                        <td>معمولاً همراه با آنتی‌سرم هاری تجویز می‌شود.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="national-schedule">
+        <h2>جدول ۲: برنامه ملی واکسیناسیون ایران</h2>
+         <div class="table-responsive-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>سن</th>
+                        <th>نوع واکسن در صورت تجویز واکسن پنج‌گانه</th>
+                        <th>نوع واکسن در صورت تجویز واکسن شش‌گانه</th>
+                        <th>واکسن‌های دیگر/ ملاحظات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>بدو تولد</strong></td>
+                        <td>BCG، HBV، OPV</td>
+                        <td>BCG، HBV، OPV</td>
+                        <td>سه واکسن زایشگاهی.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>۲ ماهگی</strong></td>
+                        <td>Pentavalent، OPV، Rotavirus، PCV</td>
+                        <td>Hexavalent، OPV، Rotavirus، PCV</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>۴ ماهگی</strong></td>
+                        <td>Pentavalent، OPV، IPV، Rotavirus، PCV</td>
+                        <td>Hexavalent، OPV، Rotavirus، PCV</td>
+                        <td>IPV برای پوشش بیشتر اضافه شده.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>۶ ماهگی</strong></td>
+                        <td>Pentavalent، OPV، IPV، Rotavirus (سرخک نوبت صفر در استانهای منتخب)</td>
+                        <td>Hexavalent، OPV، Rotavirus (سرخک نوبت صفر در استانهای منتخب)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>۱۲ ماهگی (یک سالگی)</strong></td>
+                        <td>MMR، PCV</td>
+                        <td>MMR، PCV</td>
+                        <td>OPV در این نوبت (در برنامه قدیمی) داده نمی‌شد.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>۱۸ ماهگی (یک و نیم سالگی)</strong></td>
+                        <td>DTP، OPV، MMR (یادآور)</td>
+                        <td>DTP، OPV، MMR (یادآور)</td>
+                        <td>MMR به عنوان دوز یادآور.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>۶-۴ سالگی (ورود به مدرسه)</strong></td>
+                        <td>DTP، OPV</td>
+                        <td>DTP، OPV</td>
+                        <td>BCG به صورت اختیاری قابل تزریق است.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="notes-section" id="general-notes">
+        <h2>توضیحات و نکات کلی</h2>
+        <ul>
+            <li>برنامه واکسیناسیون ملی ایران شامل ۷ نوبت اصلی است.</li>
+            <li>این برنامه به صورت دوره‌ای بازبینی و به‌روزرسانی می‌شود؛ هرچند اصول کلی ثابت می‌مانند.</li>
+            <li>هدف از واکسن‌های ترکیبی (مانند Pentavalent و Hexavalent) کاهش تعداد تزریقات و افزایش راحتی است.</li>
+            <li>واکسن‌های خوراکی (مانند OPV و Rotavirus) موجب ایجاد ایمنی مخاطی (IgA) می‌شوند.</li>
+            <li>در ایران، بیماری‌های فلج اطفال و سرخک در مرحله حذف (Elimination) قرار دارند.</li>
+            <li>تزریق واکسن BCG علاوه بر پیشگیری از سل، با تقویت ایمنی سلولی، می‌تواند اثرات ضد سرطان و ضد آلرژی نیز داشته باشد.</li>
+            <li>واکسن‌های پلی‌ساکاریدی کنژوگه (مانند PCV) ایمنی‌زایی بهتری نسبت به انواع غیرکنژوگه خود دارند، خصوصاً در کودکان.</li>
+            <li>برای مسافران یا افرادی که برنامه واکسیناسیون نامشخصی دارند، پروتکل‌های خاصی (مانند استفاده از DTP یا Pentavalent) اعمال می‌شود.</li>
+            <li>واکسن هپاتیت A به دلیل شیوع طبیعی و کسب ایمنی در بسیاری از افراد، جزو برنامه ملی روتین نیست.</li>
+            <li>واکسن HPV (عامل برخی سرطان‌ها) در برنامه ملی ایران نیست، برخلاف برخی کشورها.</li>
+            <li>بیماری آبله ریشه‌کن شده و واکسن آن جز در موارد خاص (مانند آمادگی برای بیوتروریسم توسط برخی کشورها) استفاده نمی‌شود.</li>
+            <li>واکسن‌های هاری، سرخک و آبله (در گذشته) قابلیت استفاده پس از مواجهه (Post-exposure) را دارند. برای کزاز معمولاً از آنتی‌سرم استفاده می‌شود.</li>
+        </ul>
+    </section>
+
+</div>
+</body>
+</html>
